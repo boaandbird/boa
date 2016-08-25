@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .box11 {
+        width: 200px;
+        height: 200px;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        transition: all 2s;
+        position: absolute; 
+        top: 0;
+        background-color: white;
+        transform-origin:left;
+    }
+    /*box2 box3 都是大盒子*/
+    .bo2 {
+        background-color: ;
+        left: 250px;
+      
+    }
+    .bo3 {
+        background-color: ;
+        left: 250px;z
+    }
+    
+    .box1 {
+        top: 0;
+        z-index: 1;
+    }
+    
+    .box33 {
+        top: 20px;
+    }
+    
+    .box {
+        background: green;
+        position: absolute;
+        right: -20px;
+        width: 20px;
+        height: 20px;
+
+        
+    }
+    </style>
+</head>
+
+<body>
+    <div class="bo2 box11" id="box2">
+        学习笔记
+        <div class="box1 box" id="box1">
+        </div>
+    </div>
+
+    <div class="bo3 box11" id="bo3">
+    fada
+        <div class="box33 box" id="box33">
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+var a = [1,2,4];
+
+var b = function(){
+    console.log(a)
+}
+alert(a.b())
+// var box = document.getElementById('box1');
+// var bo2 = document.getElementById('box2');
+// var bo3 = document.getElementById('bo3');
+// var box33 = document.getElementById('box33');
+
+// var flag = true;var flae = true;
+// var zIndex = 1;
+// box.onclick = function() {
+//     if (flag) {
+//         bo2.style.transform = 'rotateY(-180deg)';
+//         bo2.style.zIndex = 3;
+//         flag = false;
+
+//     } else {
+//         bo2.style.transform = 'rotateY(0deg)';
+//         flag = true;
+//         zIndex = 1;
+//     }
+// }
+// box33.onclick = function() {
+//     if (flae) {
+//         bo3.style.transformOrigin = 'left center';
+//         bo3.style.transform = 'rotateY(-180deg)';
+//         bo3.style.zIndex = 3;
+//         flae = false;
+//     } else {
+//         bo3.style.transform = 'rotateY(0deg)';
+//         flae = true;
+//     }
+// }
+</script>
+
+</html>
